@@ -25,3 +25,6 @@ except ZeroDivisionError:
     print('error! the prior net sales cannot be zero.')
 except Exception as error:
     print(error)
+finally:
+    # the code is always executes
+    print("Finishing..")
